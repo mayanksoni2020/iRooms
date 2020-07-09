@@ -1,0 +1,6 @@
+{
+    "mongodbURL":"mongodb+srv://ydhash12:Dilip@20001@irooms-ap8e6.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret":"mypersonal",
+    "privateapikey":"dfc5c53157bac454cc8ba04ee8dcfcb3",
+    "privateauthkey":"d1045cfd3558e9d41699089177919f9d"
+}

@@ -1,0 +1,71 @@
+
+.popRooms{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin:50px 70px;
+}
+.popRoomsHead
+{
+    background-color:#212121;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+}
+.popRoomsSlider{
+    display: flex;
+    flex-direction:row;
+    overflow-x: auto;
+}
+.popRoomsSlider>div{
+    flex-grow: 3;
+}
+.insideSlide{
+    flex-shrink: 0;
+    height: 100%;
+}
+
+.card{
+    width: 318px;
+    margin: 15px;
+    position: relative;
+}
+
+  /* mobile responsive */
+  .popRoomsm{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 25px 25px;
+}
+.popRoomsHeadm
+{
+    background-color:#212121;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+.popRoomsSliderm{
+    display: flex;
+    flex-direction:row;
+    overflow-x: auto;
+    margin-top: 10px;
+}
+.popRoomsSliderm>div{
+    flex-grow:4;
+}
+.insideSlidem{
+    flex-shrink: 0;
+    height: 100%;
+}
+
+.insideSlidem .card{
+    width: 250px;
+    margin: 15px;
+    position: relative;
+}
+
+  
+
+  

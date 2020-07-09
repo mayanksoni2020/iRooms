@@ -1,0 +1,48 @@
+.listProperty{
+    margin: 45px 0px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) ;
+    padding:25px;
+    background-color: #F3A800;
+  
+    font-weight: 500;
+}
+.listProperty input{
+border-radius: 0px;
+padding: 12px 15px;
+margin-bottom: 15px;
+
+background-color: inherit;
+border:none;
+border-bottom: 2px solid #FFDC73;
+color:white;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+.listProperty input:focus{
+    background-color: inherit;
+   box-shadow: none;
+  }
+#selectroom:focus{
+    background-color: inherit;
+   box-shadow: none;
+   color:white;
+   background-color: #F3A800;
+   border: 1px solid #FFDC73;
+  }
+#selectroom{
+    border-radius: 0px;
+    border:none;
+    color: white;
+border-bottom: 2px solid #FFDC73;
+background-color: inherit;
+
+    margin-bottom: 8px;
+    margin-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    }
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        margin: 0; 
+    }

@@ -1,0 +1,81 @@
+
+
+.carouselBottom{
+  width: 100%;
+  background-color:white;
+  padding: 15px;
+  }
+  .rentdetail{
+    display: flex;
+    flex-direction: row;  
+  }
+  .rentdetail>div{
+    flex-grow: 3;
+    border-right: 1px solid #D1C6BD; 
+    text-align: center;
+  }
+  .rentdetail1{
+    border-right: 1px solid black;
+  }
+
+  
+
+
+  .roomAmenities{
+    width: 100%;
+    background-color:white;
+    padding: 15px;
+    margin-top: 10px;
+    }
+  
+    .amenities{
+      display: flex;
+      flex-direction: row;  
+    }
+    
+    .amenitiesDetail>div{
+      text-align: center;
+      display: inline-block;
+      padding-right: 25px;
+      padding-left: 60px;
+    }
+    .amenitiesDetail .fas{
+      font-size:48px;
+      margin-bottom: 10px;
+    }
+    .rentDetails{
+        width: 100%;
+        background-color:white;
+        padding: 15px;
+        margin-top: 10px;
+        }
+      
+        .details{
+          display: flex;
+          flex-direction: row;  
+      }
+      .monthlyRent{
+        margin-bottom: 30px;
+      }
+      
+  .houseTerms{
+    width: 100%;
+    background-color:white;
+    padding: 15px;
+   
+    }
+  
+    .terms{
+      display: flex;
+      flex-direction: row;  
+  }
+  
+  
+.partLayout2nav{
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    font-size:12px;
+    
+    font-family: 'Montserrat', sans-serif;
+  }

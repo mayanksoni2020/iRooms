@@ -1,0 +1,23 @@
+.smallBanner{
+    background:linear-gradient(180deg,rgba(35, 66, 151, 0.6),rgba(209, 13, 13, 0.692)),url('../../../image/bann.jpg');
+     background-repeat: none;
+     background-size: cover;
+     height: 60vh;
+     color: white;
+    
+   }
+   .mobileSlider{
+    display: flex;
+    overflow-x: auto;
+  
+}
+.slidemob{
+    flex-shrink: 0;
+    height: 100%;
+    width: 90%;
+    margin-right: 10px;
+    
+}
+.mobileSlider{
+    -webkit-overflow-scrolling: touch;
+}

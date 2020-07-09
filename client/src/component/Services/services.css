@@ -1,0 +1,44 @@
+.circle{
+  background:url('../../image//bed.svg');
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-color: transparent;
+  border-radius: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.circle1{
+  background:url('../../image//pie.svg');
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-color: transparent;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.circle2{
+  background:url('../../image//washing-machine.svg');
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title{
+  text-align: center;
+
+  margin-top: 10px;
+ 
+}
+.desc{
+  padding: 0px 20px;
+  font-family: 'Poppins', sans-serif;
+  opacity: 0.9;
+}
+.mainblackdiv{
+  background: url('../../image//dark.jpg');
+  background-repeat: repeat;
+}

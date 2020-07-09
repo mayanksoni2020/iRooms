@@ -1,0 +1,71 @@
+
+div.cardSSD.card-body{
+  background-color: #E9DCD3;
+    color: #010101;
+    
+}
+.insideSRD{
+    display: flex;
+}
+.insideSRD>div{
+    flex-direction: row;
+    flex-grow: 3;
+text-align: center;
+    border-right: 1px solid #D1C6BD;
+    border-left: 1px solid #D1C6BD;
+}
+p.card-text{
+    margin: 0px;
+}
+div.hr{
+    margin: 0px;
+}
+button.btn.btn-outline-dark.btn-md{
+    margin: 0px 65px;
+}
+.srd{
+    padding: 0px;
+    margin: 0px 50px;
+}
+.srd:hover{
+    box-shadow: 0 5px 15px rgba(33,33,33,2);
+    transition-duration: 0.5s;
+  
+}
+.srdCard{
+    width: 370px;
+}
+.srdmob{
+    margin: 5px 35px;
+}
+.srdCardmob{
+    width: 280px;
+}
+
+.positionimg {
+    position: relative;
+   padding: 0px;
+   margin: 0px;
+    color: white;
+  }
+  
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    padding: 0px;
+    top:185px;
+    color: mediumseagreen;
+    opacity: 1;
+    right:5px;
+    font-size: 1rem;
+  }
+  
+  

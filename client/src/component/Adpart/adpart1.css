@@ -1,0 +1,36 @@
+.adSectionch{
+    background: #efefbb; 
+    background: -webkit-linear-gradient(to left, #d4d3dd, #efefbb); 
+    background: linear-gradient(to left, #d4d3dd, #efefbb);
+    display: flex;
+    margin: 0px 70px;
+  color: black;
+  text-align: center;
+  align-items: center;
+}
+#adIconch{
+    font-size: 48px;
+    
+}
+/* design fro tenants */
+
+/* responsive design */
+.adSectionMobilech{
+    background: #efefbb; 
+    background: -webkit-linear-gradient(to left, #d4d3dd, #efefbb); 
+    background: linear-gradient(to left, #d4d3dd, #efefbb);
+    color: black;
+}
+#adIcon1ch{
+    font-size: 24px;
+}
+.iconMobilech {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+}
+.iconMobilech>div{
+    flex-grow: 3;
+    text-align: center;
+}
